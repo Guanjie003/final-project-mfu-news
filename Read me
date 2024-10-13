@@ -1,0 +1,2 @@
+ports 8081 is backend
+ports 8080 is frontend
