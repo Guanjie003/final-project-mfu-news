@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B1A1A;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #8B1A1A;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.news-section {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.news-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.news-table th, .news-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.news-table th {
+    background-color: #8B1A1A;
+    color: white;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.status.approved {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.status.denied {
+    background-color: #F44336;
+    color: white;
+}
+
+.status.waiting {
+    background-color: #FFC107;
+    color: white;
+}
+
+.status.pending {
+    background-color: #B0BEC5;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
