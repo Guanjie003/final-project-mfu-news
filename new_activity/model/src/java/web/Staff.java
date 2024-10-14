@@ -1,4 +1,4 @@
-package java.web.domain;
+package java.web.staff;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package java.web.domain;
+package java.web.Division_Student;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
