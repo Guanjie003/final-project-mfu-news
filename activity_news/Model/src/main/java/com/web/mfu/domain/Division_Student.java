@@ -1,4 +1,4 @@
-package java.web.domain;
+package com.web.mfu.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
