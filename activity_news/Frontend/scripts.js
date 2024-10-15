@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     const newsBody = document.getElementById('news-body');
-}
+})
