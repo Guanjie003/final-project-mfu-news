@@ -8,7 +8,7 @@
     	<version>0.0.1-SNAPSHOT</version>
     </parent>
 
-	<artifactId> run backend</artifactId>
+	<artifactId> run_backend</artifactId>
 	<packaging>jar</packaging>
 	<name>backend</name>
 
@@ -19,12 +19,6 @@
 	</properties>
     
 	<dependencies>
-    
-        <dependency>
-            <groupId>test.domain</groupId>
-            <artifactId>model</artifactId>
-            <version>${java.version}</version>
-        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -64,4 +58,7 @@
 
 	</dependencies>
 
+	<build>
+  		<sourceDirectory>src/main/java</sourceDirectory>
+	</build>
 </project>

@@ -25,11 +25,32 @@
     <modules>
         <module>Front</module>
         <module>Model</module>
-        <module>Services</module>
+        <module>Backend</module>
     </modules>
 
     <dependencies>
         
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.6.15.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.3.232</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.17.0</version>
+        </dependency>
+
+
+
+
     </dependencies>
 
 
