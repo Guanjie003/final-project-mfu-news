@@ -1,3 +1,4 @@
+// Set up Variable
 let staffId = document.getElementById("staffId");
 let password = document.getElementById("password");
 let confirmPassword = document.getElementById("confirmPassword");
@@ -69,20 +70,20 @@ let eyeIcon2 = document.getElementById("passIcon2");
 // New password field
 eyeIcon1.addEventListener("click", function(){
     if (password.getAttribute("type") == "password") {
-        eyeIcon1.setAttribute("src", "img/visible-icon.svg");
+        eyeIcon1.setAttribute("src", "/img/visible-icon.svg");
         password.setAttribute("type", "text");
     } else {
-        eyeIcon1.setAttribute("src", "img/hidden-icon.svg");
+        eyeIcon1.setAttribute("src", "/img/hidden-icon.svg");
         password.setAttribute("type", "password");
     }
 })
 // Confirm password field
 eyeIcon2.addEventListener("click", function(){
     if (confirmPassword.getAttribute("type") == "password") {
-        eyeIcon2.setAttribute("src", "img/visible-icon.svg");
+        eyeIcon2.setAttribute("src", "/img/visible-icon.svg");
         confirmPassword.setAttribute("type", "text");
     } else {
-        eyeIcon2.setAttribute("src", "img/hidden-icon.svg");
+        eyeIcon2.setAttribute("src", "/img/hidden-icon.svg");
         confirmPassword.setAttribute("type", "password");
     }
 })
@@ -113,13 +114,13 @@ confirmBtn.onclick = function() {
         return;
     }
     // Password and Confirm password are not reach min length
-    if (nPassword.length < 4 || cPassword.length < 4) {
-        errorAlert("Password and Confirm password must be at least 4 characters long", "รหัสผ่านและยืนยันรหัสผ่านต้องมีความยาวอย่างน้อย 4 ตัวอักษร");
+    if (nPassword.length < 6 || cPassword.length < 6 || nPassword.length > 12 || cPassword.length > 12) {
+        errorAlert("Password must be at 6 - 12 characters long", "รหัสผ่านและยืนยันรหัสผ่านต้องมีความยาว 6 - 12 ตัวอักษร");
         return;
     }
     // Password and Confirm password are match
     if (nPassword == cPassword) {
-        errorAlert("Password match, CHANGE LATER", "Password match, CHANGE LATER"); // Go to Dashboard page
+        // Go to Dashboard page
     } 
     // Password and Confirm password aren't match
     else {

@@ -65,8 +65,8 @@ header {
     justify-content: center;
     position: absolute;
     width: 700px;
-    height: 590px;
-    top: 250px;
+    height: 500px;
+    top: 280px;
     border-radius: 1px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.322);
     background-color: white;
@@ -140,7 +140,7 @@ header {
     visibility: hidden;
 }
 
-.confirmButton {
+.signInButton {
     position: absolute;
     bottom: 110px;
     width: 260px;
@@ -155,13 +155,13 @@ header {
     cursor: pointer;
 }
 
-.confirmButton:hover {
+.signInButton:hover {
     background: linear-gradient(to right, #802E25, #934C37);
     color: white;
     border-image: linear-gradient(to right, #802E25, #934C37) 0;
 }
 
-.goBack {
+.forgot {
     position: absolute;
     bottom: 50px;
     font-size: 120%;
