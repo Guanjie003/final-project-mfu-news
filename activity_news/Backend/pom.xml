@@ -10,7 +10,7 @@
 
 	<artifactId> run_backend</artifactId>
 	<packaging>jar</packaging>
-	<name>backend</name>
+	<name>Backend</name>
 
 	<properties>
 		<java.version> 17 </java.version>

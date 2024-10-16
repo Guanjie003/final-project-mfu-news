@@ -23,7 +23,7 @@
     
 
     <modules>
-        <module>Front</module>
+        <module>Frontend</module>
         <module>Model</module>
         <module>Backend</module>
     </modules>

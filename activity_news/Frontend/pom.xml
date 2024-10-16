@@ -9,9 +9,9 @@
     	<version>0.0.1-SNAPSHOT</version>
     </parent>
 
-	<artifactId> run_Front</artifactId>
+	<artifactId> run_front</artifactId>
 	<packaging>jar</packaging>
-	<name>Front</name>
+	<name>Frontend</name>
 
     <properties>
         <java.version>17</java.version>

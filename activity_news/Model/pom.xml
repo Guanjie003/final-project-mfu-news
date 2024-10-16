@@ -11,7 +11,7 @@
 
 	<artifactId> run_model</artifactId>
 	<packaging>jar</packaging>
-	<name>model</name>
+	<name>Model</name>
 
     <properties>
         <java.version>17</java.version>
