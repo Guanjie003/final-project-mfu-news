@@ -5,11 +5,11 @@
 	<parent>
         <groupId>com.mfu</groupId>
     	<artifactId>new_activity</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
     </parent>
 
 	<artifactId> run_backend</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>Backend</name>
 
 	<properties>
@@ -17,7 +17,7 @@
 		<spring-boot.version> 3.3.4 </spring-boot.version>
 		<jboss.version> 7.0.0.Alpha3 </jboss.version>
 	</properties>
-    
+
 	<dependencies>
 
 		<dependency>
@@ -70,8 +70,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass> com.mfu.new_activity </mainClass>
+				</configuration>
             </plugin>
         </plugins>
-  		<sourceDirectory>src/main/java</sourceDirectory>
 	</build>
 </project>

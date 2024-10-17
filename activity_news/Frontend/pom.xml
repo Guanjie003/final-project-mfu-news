@@ -10,7 +10,7 @@
     </parent>
 
 	<artifactId> run_front</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>Frontend</name>
 
     <properties>
@@ -49,14 +49,5 @@
         
 
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
